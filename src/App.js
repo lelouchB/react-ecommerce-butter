@@ -19,11 +19,11 @@ function App() {
 
   useEffect(() => {
     async function fetchData() {
-      const res = await butter.content.retrieve(["products"], {
+      const res = await butter.content.retrieve(["cookies"], {
         order: "name",
       });
       const { data } = await res.data;
-      const allProducts = data.products;
+      const allProducts = data.cookies;
       setProducts(allProducts);
     }
     fetchData();
