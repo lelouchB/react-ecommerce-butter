@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   return (
-    <Container maxW="container.xl" h="100vh">
+    <Container maxW="container.xl" h="100vh" >
       <Flex justifyContent="space-between" alignContent="center">
         <Text
           as="a"
@@ -61,6 +61,7 @@ function App() {
           align="center"
           justify="center"
           spacing="40px"
+          mb={32}
         >
           {products.map((product) => (
             <Box
