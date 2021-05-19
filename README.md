@@ -1,5 +1,9 @@
-# Getting Started with Create React App
+# React Ecommerce App
+ React Ecommerce app built with ButterCMS and Snipcart. 
+ 
+ ![Screenshot_2021-05-19 React Ecommerce Butter](https://user-images.githubusercontent.com/45850882/118766656-59713d80-b89a-11eb-88fe-41b93f9c3188.png)
 
+ 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
